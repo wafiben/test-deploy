@@ -11,7 +11,6 @@ function App() {
   };
   const handleDecrement=()=>{
     dispatch(decrement());
-    console.log('sss')
   }
 
   return (
