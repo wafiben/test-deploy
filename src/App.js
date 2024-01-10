@@ -9,12 +9,15 @@ function App() {
   const handleIncrement = () => {
     dispatch(increment());
   };
-  
+  const handleDecrement=()=>{
+    dispatch(decrement());
+  }
+
   return (
     <div className="App">
       <button onClick={handleIncrement}>+</button>
       <Count/>
-  
+      <button onClick={handleDecrement}>-</button>
     </div>
   );
 }
